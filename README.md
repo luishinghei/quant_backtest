@@ -42,7 +42,7 @@ bt1 = bt.BacktestEngine(btc, double_rsi_momentum, btc, fee, rsi_short=17, rsi_lo
 bt1.run()
 bt1.report()
 ```
-![image](https://github.com/user-attachments/assets/218b228d-0c59-40dc-b56a-95b087c4212e)
+![image](https://github.com/user-attachments/assets/23df1e07-a452-4715-bcb6-d5fdb7106db0)
 
 ## Optimizer
 
@@ -58,6 +58,7 @@ opt1 = bt.Optimizer(btc, double_rsi_momentum, btc, fee, rsi_short=rsi_short, rsi
 opt1.run()
 opt1.plot_heatmap()
 ```
+![image](https://github.com/user-attachments/assets/c5e0de74-7c9f-4e08-a110-6053a7d15c83)
 
 ## Visualization
 
@@ -70,5 +71,6 @@ bt1.plot_pnl()
 bt1.plot_rolling_sharpe()
 bt1.plot()
 ```
+![image](https://github.com/user-attachments/assets/6287501f-16ea-4356-88dd-ea9a442026bf)
 
 For more detailed examples and usage, please refer to the [`example.ipynb`] notebook.
