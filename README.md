@@ -42,6 +42,7 @@ bt1 = bt.BacktestEngine(btc, double_rsi_momentum, btc, fee, rsi_short=17, rsi_lo
 bt1.run()
 bt1.report()
 ```
+![image](https://github.com/user-attachments/assets/218b228d-0c59-40dc-b56a-95b087c4212e)
 
 ## Optimizer
 
